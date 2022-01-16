@@ -653,14 +653,21 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
-.btn,
-a {
+.btn, 
+.col-sm-4 a,
+.row h2
+{
     font-family: "helvetica";
     font-weight: 400;
     /* color: #575757!important; */
     color: #e0e0e0!important;
+}
+a, p {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757!important;
+    /* color: #e0e0e0!important; */
 }
 
 .container {
