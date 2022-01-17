@@ -514,6 +514,10 @@ label,
     /* color: #575757!important; */
     color: #e0e0e0!important;
 }
+/* padding for tap target */
+.col-sm-4 a {
+    padding: 1em;
+}
 a, p {
     font-family: "helvetica";
     font-weight: 400;
