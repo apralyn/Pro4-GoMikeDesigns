@@ -155,16 +155,15 @@ a:hover {
 }
 
 .row-no-gutters {
-    /* margin-right: 0 ;
-    margin-left: 0; */
-    margin: 0;
+    margin-right: 0 ;
+    margin-left: 0;
+    
 }
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-    /* padding-right: 0;
-    padding-left: 0; */
-    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 #bloc-2-services p {
@@ -247,9 +246,8 @@ a:hover {
         position: relative;
         width: 100%;
         right: 0;
-        margin: 20px 0 0 0;
-        /* margin-right: 0px;
-        margin-top: 20px; */
+        margin-right: 0px;
+        margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
         float: none;
@@ -267,30 +265,30 @@ nav .caret {
     margin: 0 5px;
 }
 
-.dropdown-menu .dropdown-menu {
+/* comment out 0122 @920pm cant find drop down menu in wp */
+ /* .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
-}
+} */
 
-.dropdown-menu .dropmenu-flow-right {
+/* .dropdown-menu .dropmenu-flow-right {
     top: 100%;
     left: 0;
     margin-left: -1px;
     /* border-top-left-radius: 0;
-    border-top-right-radius: 0; */
+    border-top-right-radius: 0;
     border-radius: 0;
+} */
 
-}
-
-.dropdown-menu .dropdown span {
+/* .dropdown-menu .dropdown span {
     border: 4px solid black;
     /* border-top-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: transparent; */
+    border-bottom-color: transparent;
     border-color: transparent;
     margin: 6px -5px 0 0!important;
     float: right;
-}
+} */
 
 .mg-md {
     /* margin-top: 10px;
@@ -598,7 +596,7 @@ h3 {
 }
 
 h1, h4 {
-    color: #333333!important;
+    color: #333!important;
 }
 
 /* h4 {
@@ -835,15 +833,15 @@ h1, h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
-    .dropdown .dropdown a .caret {
+    /* .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
         border: 4px solid black;
         /* border-bottom-color: transparent;
         border-right-color: transparent;
-        border-left-color: transparent; */
+        border-left-color: transparent;
         border-color: transparent;
-    }
+    } */
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
     }
@@ -875,21 +873,21 @@ h1, h4 {
         float: left;
         margin-left: 10px;
     }
-    /* .bloc {
-        /* padding-left: 0;
+    .bloc {
+        padding-left: 0;
         padding-right: 0;
         padding: 0;
-    } */
+    }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
     }
-    /* .bloc-sm,
+    .bloc-sm,
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
-    } */
+    }
     .bloc,
     .bloc-sm,
     .bloc-md,
@@ -898,9 +896,8 @@ h1, h4 {
     .bloc-tile-4 .container,
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        /* padding-left: 0;
-        padding-right: 0; */
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     .a-block {
         padding: 0 10px;
