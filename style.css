@@ -659,7 +659,7 @@ h1, h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #e2e2e2!important;
 }
 
 .btn-atomic-tangerine {
@@ -777,8 +777,8 @@ h1, h4 {
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    /* }
-    .bloc-fill-screen .fill-bloc-top-edge,
+    }
+    /* .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
@@ -926,7 +926,7 @@ h1, h4 {
         width: 216px;
         height: 425px;
     }
-    .blocsapp-device-iphone5 img {
+    .blocsapp-device-iphone5 img { 
         width: 180px;
         height: 320px;
     }
