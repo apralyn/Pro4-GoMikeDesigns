@@ -667,8 +667,7 @@ h6,
 label, a, p {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
-    /* color: #e0e0e0!important; */
+    color: #575757;
 }
 
 .container {
