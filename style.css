@@ -442,6 +442,7 @@ nav .caret {
     /* margin-top: 10px;
     margin-bottom: 20px; */
     margin: 10px 0 20px 0;
+    
 }
 
 .mg-lg {
@@ -651,16 +652,17 @@ h4,
 h5,
 h6,
 .btn, 
-.col-sm-4 a,
 .row h2
 {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
+
 /* padding for tap target */
 .col-sm-4 a {
     padding: 1em;
+    color: white;
 }
 label, a, p {
     font-family: "helvetica";
@@ -757,7 +759,6 @@ h1, h4 {
 }
 
 .white {
-    /* color: #FFFFFF!important; */
     color: #FFF!important;
 }
 
@@ -812,8 +813,8 @@ h1, h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     /* color: #FFFFFF!important; */
-    /* color: #FFF!important; */
-    color: #141414!important
+    color: #FFF!important;
+    /* color: #141414!important */
 }
 
 .btn-atomic-tangerine:hover {
