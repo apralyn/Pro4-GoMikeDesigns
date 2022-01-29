@@ -626,19 +626,11 @@ h4,
 h5,
 h6,
 .btn, 
-.row h2
+.row h2, 
+a, 
+p,
+label 
 {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757;
-}
-
-/* padding for tap target */
-.col-sm-4 a {
-    padding: 1em;
-    color: white;
-}
-label, a, p {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757;
@@ -695,6 +687,7 @@ p {
     max-width: 400px;
     /* margin: auto auto auto auto; */
     margin: auto;
+    color: white;
 }
 
 h2 {
